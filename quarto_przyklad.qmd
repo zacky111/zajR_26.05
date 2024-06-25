@@ -1,3 +1,15 @@
+---
+title: "zad2"
+author: "Jakub"
+format: html
+editor: visual
+---
+
+
+## Funkcja1 - kod
+
+
+```{r}
 # Instalacja i załadowanie biblioteki ggplot2
 install.packages("ggplot2")
 library(ggplot2)
@@ -22,3 +34,6 @@ new_f <- function(x){
   y=x^2/sqrt(x)
   return (y)
 }
+```
+
+
